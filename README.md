@@ -14,7 +14,7 @@ We are proposing the creation of a tool powered by Machine Learning technologies
 
 ## AI & Machine Learning Models Steps
 
-*Gathering Data: Watson Analytics sample data for HR Employee Attrition and Performance (1,470 rows)
+* Gathering Data: Watson Analytics sample data for HR Employee Attrition and Performance (1,470 rows)
 *	Data Analysis: Preview analysis of the data.
 *	Data Preprocessing: Handle missing data, categorical data, split model into training and test set and feature scaling.
 *	Spot-check algorithms:  Evaluate the classification, clustering and regression algorithms to be used. Define the optimum model based on the data available, problem and resources available.
