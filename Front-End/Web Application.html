@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+        <title>Employee Database </title>	
+	
+
+<link type="text/css" href="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/css/websitestyle.css" media="screen" rel="stylesheet"/>
+<link type='text/css' href='https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/css/navigationmenustyle.css' media='screen' rel='stylesheet'/>	
+<script src="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/js/NavMenu.js"></script>
+<link rel="stylesheet" href="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/css/dataTables.bootstrap4.min.css"/>
+<script src="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/js/jquery-3.3.1.js"></script>
+<script src="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/js/csv_to_html_table.js"></script>
+<script src="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/js/jquery.csv.min.js"></script>
+<script src="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/js/jquery.dataTables.min.js"></script>
+<script src="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/css/jquery.dataTables.min.css" />
+
+
+<script type="text/javascript"> 
+
+
+</script>
+
+
+</head>
+<body>
+    <header id="myHeader"> </header>
+	<h2></h2>
+    <div id="myNav2"></div>
+    <nav id="myFooter"></nav>
+    
+<br>
+<form method="GET" action="https://fewv3pb319.execute-api.us-east-1.amazonaws.com/api/predict"><input class='btn btn-info' type="submit" value="Run Prediction">
+</form>
+<form form method="" action="" name="myform" id="myform" >
+    <div id="table-container" cellspacing="0" style="max-width:1100px; margin-left:500px; margin-top:50px; display: block;  overflow-y: auto; -ms-overflow-style: -ms-autohiding-scrollbar; "  ></div>
+</form>
+
+    
+</body>
+
+
+<script>
+        init_table({
+          csv_path: 'https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/database/EmployeeDatabase.csv', 
+          element: 'table-container', 
+          allow_download: true,
+          csv_options: {separator: ',', delimiter: '"'},
+          datatables_options: {"paging": true,    "order": [[ 0, "desc" ]]}
+        });
+    
+         $('.dataTables_length').addClass('bs-select');
+</script>
+
+<script src="https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/js/PageLayout_Nav_Menu.js"></script>
+</html>
