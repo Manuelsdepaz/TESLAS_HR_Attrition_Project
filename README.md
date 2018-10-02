@@ -14,14 +14,14 @@ We are proposing the creation of a tool powered by Machine Learning technologies
 
 ## AI & Machine Learning Models Steps
 
-•	Gathering Data: Watson Analytics sample data for HR Employee Attrition and Performance (1,470 rows)
-•	Data Analysis: Preview analysis of the data.
-•	Data Preprocessing: Handle missing data, categorical data, split model into training and test set and feature scaling.
-•	Spot-check algorithms:  Evaluate the classification, clustering and regression algorithms to be used. Define the optimum model based on the data available, problem and resources available.
-•	Improve Results: Analyze and Interpret the results of each model Do statistical analysis to evaluate the performance of each model and choose the best model to resolve the problem
-•	Build Back-end application to process results. Integrate tool with AWS SageMaker (Machine Learning service) and S3 (repository service) with Lambda function.
-•	Build Front-end application for user. Build a serverless frontend for an AWS sage maker endpoint, this new app will accept new user data and produce an on-demanded prediction which will be returned to the user’s browser.
-•	Define the optimum 
+*Gathering Data: Watson Analytics sample data for HR Employee Attrition and Performance (1,470 rows)
+*	Data Analysis: Preview analysis of the data.
+*	Data Preprocessing: Handle missing data, categorical data, split model into training and test set and feature scaling.
+*	Spot-check algorithms:  Evaluate the classification, clustering and regression algorithms to be used. Define the optimum model based on the data available, problem and resources available.
+*	Improve Results: Analyze and Interpret the results of each model Do statistical analysis to evaluate the performance of each model and choose the best model to resolve the problem
+*	Build Back-end application to process results. Integrate tool with AWS SageMaker (Machine Learning service) and S3 (repository service) with Lambda function.
+*	Build Front-end application for user. Build a serverless frontend for an AWS sage maker endpoint, this new app will accept new user data and produce an on-demanded prediction which will be returned to the user’s browser.
+*	Define the optimum 
 
 ## Back-end application
 
