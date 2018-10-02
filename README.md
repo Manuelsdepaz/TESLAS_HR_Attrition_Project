@@ -34,9 +34,11 @@ SageMaker provides a powerful platform for building, training, and deploying mac
 
 We used the Chalice package to produce an API Gateway endpoint to trigger a Lambda function that call our SageMaker endpoint and produce  predictions to the entire dataset. The serverless capabilities of Amazon Simple Storage Service (S3), Amazon API Gateway, and AWS Lamda help us to deploy a  web application using a CSV file stored in a S3 bucket.
 
-The preprocessing of the new input data is done through the Lamda function. Lambda function removed the unnecesary columns and convert the categorical into dummy variables. Lambda is also able to manipulate the columns and prepare the date before call the the Sagemaker endpoint. Finally the AWS Lamda function uploads the new CSV dataset to the S3 repository. To combine the AWS services we previusly created IAM roles and assigned the permission for each service.
+The preprocessing of the new input data is done through the Lamda function. Lambda function removed the unnecesary columns and convert the categorical variables into dummy variables. Lambda is also able to manipulate the columns and prepare the date before calling the the Sagemaker endpoint. Finally the AWS Lamda function uploads the new CSV dataset to a S3 repository. To combine the AWS services we previusly created IAM roles and assigned the permission for each service.
 
 
 ## [Front-end application](https://github.com/Manuelsdepaz/TESLAS_HR_Attrition_Project/tree/test/Front-End)
+
+https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/pages/EmployeeDatabase.html
 
 Finally, we created a static HTML form in Amazon S3 to serve as the user interface for our application. The end product is a web application that can accept new user data in CSV format and produce an on-demand prediction based on that data, which is returned to the user’s browser.  The website loads the new CSV using Jquery datatable and Jquery csv. The user is able to filter the data, search by employe, sort and is also able to download the CSV.
