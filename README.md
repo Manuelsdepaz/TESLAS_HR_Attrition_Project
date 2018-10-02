@@ -28,7 +28,7 @@ We are proposing the creation of a tool powered by Machine Learning technologies
 ### [XGBOOST Sagemaker model](https://github.com/Manuelsdepaz/TESLAS_HR_Attrition_Project/tree/test/Back-End/Sage%20Maker%20Model)
 
 We chose XGBOOST model because it handles a variety of data types, relationships, distributions and also  a  large number of hyperparameters that can be tuned for improved fits and accuracy. Boosting also allows us to reduce bias and has been successfully used in many machine learning competitions . 
-SageMaker provides a powerful platform for building, training, and deploying machine learning models into a production environment on AWS. The data clean up and preprocessing was made using the Sagemaker instances (Jupyter notebooks) and Pandas libary. We set up a Sagemaker enpoint and transform it into a web application that accepts end-user input data.
+SageMaker provides a powerful platform for building, training, and deploying machine learning models into a production environment on AWS. The data clean up and preprocessing, building, training was made using the Sagemaker instances (Jupyter notebooks) and Pandas libary. We set up a Sagemaker enpoint and transform it into a web application that accepts end-user input data.
   
 ### [AWS LAMBDA & Chalice Microframework](https://github.com/Manuelsdepaz/TESLAS_HR_Attrition_Project/tree/test/Back-End/AWS%20Lamda%20Function%20-%20Chalice%20Package)
 
@@ -39,4 +39,4 @@ The preprocessing of the new input data is done through the Lamda function. Lamb
 
 ## [Front-end application](https://github.com/Manuelsdepaz/TESLAS_HR_Attrition_Project/tree/test/Front-End)
 
-Finally, we created a static HTML form in Amazon S3 to serve as the user interface for our application. The end product is a web application that can accept new user data in CSV format and produce an on-demand prediction based on that data, which is returned to the user’s browser.  The website loads the new CSV using Jquery datatable and Jquery csv, user is also able to download the CSV.
+Finally, we created a static HTML form in Amazon S3 to serve as the user interface for our application. The end product is a web application that can accept new user data in CSV format and produce an on-demand prediction based on that data, which is returned to the user’s browser.  The website loads the new CSV using Jquery datatable and Jquery csv. The user is able to filter the data, search by employe, sort and is also able to download the CSV.
