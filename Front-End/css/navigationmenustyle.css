@@ -1,0 +1,99 @@
+ .sidenav {
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #262626;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav li a {
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+
+	font-weight: normal;
+ }
+.sidenav a {
+    padding: 10px 4px 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #bfbfbf;
+    display: block;
+    transition: 0.3s;
+    margin-left: 8px;
+	float:none;
+	font-weight:bold; 
+	
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+ul{list-style-type: none;}
+
+
+
+ .sidenavmain {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #262626;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	list-style-type: none;
+}
+.sidenavmain li a {
+    padding: 2px 4px 2px 2px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+        
+	font-weight: normal;
+ }
+.sidenavmain a {
+    padding: 4px 4px 4px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #bfbfbf;
+    display: block;
+    transition: 0.3s;
+    margin-left: 8px;
+	float:none;
+	font-weight:bold; 
+	
+}
+
+.sidenavmain a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
