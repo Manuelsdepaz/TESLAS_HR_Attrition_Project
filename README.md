@@ -9,7 +9,7 @@ https://s3.amazonaws.com/sagemaker-hremployeeattrition-0001/website/pages/Employ
 ## Background
 
 TESLAS team was created in Guatemala and it includes 6 people 5 from DEX and 1 from RPA department. As you may already know employees play a key role in companies and for that reason it is important to know when employees will leave the company. Several factors contribute to employee’s turnover. reduction turns into loss of productivity and forces to incur in replacement costs.
-We are proposing the creation of a tool powered by Machine Learning technologies to solve this problem.  The project was made with Amazon Web Services provided by the Hackathon Toolkit.  By anticipating attrition companies we are reduce the cost of employee turnover.
+We are proposing the creation of a tool powered by Machine Learning technologies to solve this problem.  The project was made with Amazon Web Services provided by the Hackathon Toolkit.  By anticipating attrition companies we are able to reduce the cost of employee turnover.
 
 
 ## AI & Machine Learning Models Steps
